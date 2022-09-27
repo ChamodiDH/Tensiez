@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0B2434;
+}
+
+.rectangle-white {
+  width: 620px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #F5F5F5;
+  border-radius: 10px;
+  height: 620px;
+}
+
+.main-header {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35.6px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #2B283A;
+  padding-top: 50px;
+ 
+
+}
+
+.main-desc{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18.1072px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+letter-spacing: -0.03em;
+max-width: 300px;
+margin-left: auto;
+margin-right: auto;
+color: #4A4E74;
+margin-bottom: 40px;
+}
+
+.main-5-squres{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.main-squre{
+background: #FFFFFF;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+border-radius: 3.81277px;
+width: 60px;
+height: 60px;
+margin-left: 15px;
+
+}
+
+.main-number{
+  font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 22.5889px;
+line-height: 24px;
+text-align: center;
+color: #2B283A;
+}
+
+.main-btn-roll{
+background: #5035FF;
+box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+border-radius: 3.81277px;
+width: 100px;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.main-btn-roll > h2{
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 18.384px;
+line-height: 19px;
+align-items: center;
+text-align: center;
+margin: 0px;
+color: #FFFFFF
+}
